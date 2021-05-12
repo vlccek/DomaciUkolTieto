@@ -1,0 +1,5 @@
+# DomaciUkolTieto/unemployment_rate.py: 1
+pyjstat == 2.2.0
+
+# DomaciUkolTieto/unemployment_rate.py: 2
+requests == 2.24.0
