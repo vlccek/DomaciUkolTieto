@@ -21,7 +21,5 @@ def main():
     print('countries with the highest:')
     print(sortedData[-3:])
 
-    print(sortedData[-3:]['2003-2014'].tolist())
-
 if __name__ == "__main__":
     main()
