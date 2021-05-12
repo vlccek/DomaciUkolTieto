@@ -8,7 +8,7 @@ class TestUnemploymentRateFromJson(unittest.TestCase):
         expectedOutput = [2.301867378, 2.498729296, 2.565344859]
         self.assertEqual(df[:3]['value'].tolist(), expectedOutput)
     
-    def testLowest(self):
+    def testBiggest(self):
         df = ur.getSortedDataLow()
         expectedOutput = [26.78073067, 26.89014696, 27.2364419]
         self.assertEqual(df[-3:]['value'].tolist(), expectedOutput)
