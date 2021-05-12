@@ -13,16 +13,5 @@ class TestUnemploymentRateFromJson(unittest.TestCase):
         expectedOutput = [26.78073067, 26.89014696, 27.2364419]
         self.assertEqual(df[-3:]['value'].tolist(), expectedOutput)
 
-    def test_isupper(self):
-        self.assertTrue('FOO'.isupper())
-        self.assertFalse('Foo'.isupper())
-
-    def test_split(self):
-        s = 'hello world'
-        self.assertEqual(s.split(), ['hello', 'world'])
-        # check that s.split fails when the separator is not a string
-        with self.assertRaises(TypeError):
-            s.split(2)
-
 if __name__ == '__main__':
     unittest.main()
